@@ -40,7 +40,7 @@
 
         <div class="mt-8 flex flex-wrap gap-3">
           <AddToCartButton :product="product" class="px-8 py-3" />
-          <a :href="orderLink(product)" target="_blank"
+          <a :href="orderLink(product)" target="_blank" rel="noopener noreferrer"
              class="inline-flex items-center justify-center bg-brand text-white px-8 py-3 rounded-full font-medium hover:bg-brand-dark transition">
             Commander sur WhatsApp
           </a>

@@ -6,7 +6,7 @@
       </p>
       <div class="flex items-center gap-6 text-sm text-ink/60">
         <a :href="`mailto:${settings.email}`" class="hover:text-ink transition">{{ settings.email }}</a>
-        <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank" class="hover:text-ink transition">WhatsApp</a>
+        <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank" rel="noopener noreferrer" class="hover:text-ink transition">WhatsApp</a>
       </div>
     </div>
   </footer>

@@ -8,7 +8,7 @@
       <router-link to="/produits" class="bg-brand text-white px-6 py-3 rounded-full font-medium hover:bg-brand-dark transition">
         Voir les produits
       </router-link>
-      <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank"
+      <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank" rel="noopener noreferrer"
          class="border border-ink/20 text-ink px-6 py-3 rounded-full font-medium hover:border-brand transition">
         Commander maintenant
       </a>

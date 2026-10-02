@@ -27,7 +27,7 @@
           </span>
         </button>
 
-        <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank"
+        <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank" rel="noopener noreferrer"
            class="hidden sm:inline-block text-sm font-medium bg-brand text-white px-4 py-2 rounded-full hover:bg-brand-dark transition">
           Commander
         </a>
@@ -57,7 +57,7 @@
         <router-link to="/" @click="isOpen = false" class="hover:text-ink transition">Accueil</router-link>
         <router-link to="/produits" @click="isOpen = false" class="hover:text-ink transition">Produits</router-link>
         <router-link to="/contact" @click="isOpen = false" class="hover:text-ink transition">Contact</router-link>
-        <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank"
+        <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank" rel="noopener noreferrer"
            class="bg-brand text-white px-4 py-2 rounded-full text-center hover:bg-brand-dark transition">
           Commander sur WhatsApp
         </a>

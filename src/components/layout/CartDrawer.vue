@@ -88,6 +88,7 @@
           
           <a  :href="cartOrderLink(cart.lines, cart.total)"
             target="_blank"
+            rel="noopener noreferrer"
             class="mt-4 flex items-center justify-center w-full bg-brand text-white px-6 py-3 rounded-full font-medium hover:bg-brand-dark transition"
           >
             Commander sur WhatsApp

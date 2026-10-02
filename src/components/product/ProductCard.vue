@@ -10,7 +10,7 @@
       <p class="text-sm text-ink/60 mt-1">{{ formatPrice(product.price) }}</p>
       <div class="mt-3 flex flex-col gap-2">
         <AddToCartButton :product="product" class="w-full py-2 text-sm" />
-        <a :href="orderLink(product)" target="_blank"
+        <a :href="orderLink(product)" target="_blank" rel="noopener noreferrer"
            class="inline-flex items-center justify-center w-full text-sm font-medium bg-brand text-white py-2 rounded-full hover:bg-brand-dark transition">
           Commander sur WhatsApp
         </a>
