@@ -12,7 +12,7 @@ Chaque tâche est pensée pour être traitable dans une seule session d'agent. U
 - ✅ Document d'architecture & conventions
 - ✅ Fichier d'amorçage agents (`AGENTS.md`)
 - ✅ Backlog (ce document)
-- 🔲 Création du dépôt GitHub `site-vitrine-whatsapp-template` sous `authentiquedimas-code`, dépôt vide initial créé par Dimas, puis initialisé par le premier agent d'implémentation (structure, `.gitignore`, premier commit incluant le code existant + ces 3 documents dans `docs/`)
+- 🔲 Création du dépôt GitHub `site-vitrine-whatsapp-template` sous `othentiquedimas-code`, dépôt vide initial créé par Dimas, puis initialisé par le premier agent d'implémentation (structure, `.gitignore`, premier commit incluant le code existant + ces 3 documents dans `docs/`)
 - 🔲 Création de `QUESTIONS-POUR-MENTORS.md` vide (racine du dépôt), prêt à être rempli par les agents
 
 ## Épique 1 — Audit du cœur existant *(Codex, gate avant la suite)*

@@ -125,7 +125,7 @@ Changer la palette ou la typo d'un client ne doit **jamais** toucher à autre ch
 
 ## 9. Git & versionnement
 
-- Dépôt : `site-vitrine-whatsapp-template`, compte GitHub `authentiquedimas-code`.
+- Dépôt : `site-vitrine-whatsapp-template`, compte GitHub `othentiquedimas-code`.
 - Branche principale : `main`.
 - Un agent qui initialise le dépôt doit inclure un `.gitignore` standard Node/Vite (`node_modules/`, `dist/`, fichiers d'environnement locaux).
 - Convention de commit : à définir avec les mentors si besoin d'un standard (ex. Conventional Commits) — non figé à ce stade, à traiter au cas par cas tant que ce n'est pas explicitement demandé.

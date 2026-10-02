@@ -1,6 +1,6 @@
 # Cahier des charges — Site Vitrine WhatsApp (Template)
 
-**Dépôt prévu :** `site-vitrine-whatsapp-template` (compte GitHub `authentiquedimas-code`)
+**Dépôt prévu :** `site-vitrine-whatsapp-template` (compte GitHub `othentiquedimas-code`)
 **Statut :** validé par les mentors (Dimas + Claude)
 
 **Rôles de pilotage :**
@@ -123,7 +123,7 @@ Ces règles s'appliquent à **toute** déclinaison du template, pour **tout** cl
 - **Performance :** site 100 % statique, chargement initial rapide, images optimisées (WebP si possible), pas de librairie lourde non justifiée
 - **Accessibilité :** `alt` sur toutes les images, `aria-label` sur les boutons icône, contrastes suffisants lors du choix de palette
 - **Déploiement :** Netlify ou Vercel (P10), redirection SPA configurée (toutes les routes vers `index.html`)
-- **Gestion de version :** Git/GitHub, dépôt `site-vitrine-whatsapp-template` sous `authentiquedimas-code`
+- **Gestion de version :** Git/GitHub, dépôt `site-vitrine-whatsapp-template` sous `othentiquedimas-code`
 
 ---
 
