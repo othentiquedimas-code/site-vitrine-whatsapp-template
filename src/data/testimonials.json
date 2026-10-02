@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Awa D.", "text": "Service impeccable, commande passée en deux minutes sur WhatsApp. Je recommande.", "role": "Cliente fidèle" },
+  { "id": 2, "name": "Karim B.", "text": "Produits de grande qualité et livraison rapide. Rien à redire.", "role": "Client" },
+  { "id": 3, "name": "Léa M.", "text": "Un site élégant et une prise de contact ultra simple. Parfait.", "role": "Cliente" }
+]

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", serif;
+  --font-sans: "Inter", sans-serif;
+
+  /* Palette « Crème & sauge » */
+  --color-cream: #FBF7F2;        /* fond de page */
+  --color-ink: #2B2A28;          /* texte et titres */
+  --color-brand: #3F5B4E;        /* boutons et actions */
+  --color-brand-dark: #2F463B;   /* survol des boutons */
+  --color-accent: #E8A88F;       /* touches d'accent */
+  --color-sage: #DCE5DD;         /* bandeaux et fonds doux */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+}

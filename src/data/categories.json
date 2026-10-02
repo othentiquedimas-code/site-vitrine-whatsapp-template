@@ -1,0 +1,4 @@
+[
+  { "id": 1, "slug": "categorie-1", "name": "Catégorie 1", "image": "/images/cat-1.jpg" },
+  { "id": 2, "slug": "categorie-2", "name": "Catégorie 2", "image": "/images/cat-2.jpg" }
+]
