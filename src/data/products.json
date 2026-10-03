@@ -1,6 +1,6 @@
 [
-  { "id": 1, "slug": "produit-un", "name": "Produit Un", "price": 25000, "category": "categorie-1", "featured": true, "sku": "REF-001", "images": ["/images/placeholder.jpg"], "description": "Description courte du produit." },
-  { "id": 2, "slug": "produit-deux", "name": "Produit Deux", "price": 42000, "category": "categorie-1", "featured": true, "sku": "REF-002", "images": ["/images/placeholder.jpg"], "description": "Description courte du produit." },
-  { "id": 3, "slug": "produit-trois", "name": "Produit Trois", "price": 18000, "category": "categorie-2", "featured": true, "sku": "REF-003", "images": ["/images/placeholder.jpg"], "description": "Description courte du produit." },
-  { "id": 4, "slug": "produit-quatre", "name": "Produit Quatre", "price": 60000, "category": "categorie-2", "featured": false, "sku": "REF-004", "images": ["/images/placeholder.jpg"], "description": "Description courte du produit." }
-]
+  { "id": 1, "slug": "produit-un", "name": "Produit Un", "price": 25000, "category": "categorie-1", "featured": true, "sku": "REF-001", "images": ["/images/placeholder-produit-un.jpg"], "description": "Description courte du produit." },
+  { "id": 2, "slug": "produit-deux", "name": "Produit Deux", "price": 42000, "category": "categorie-1", "featured": true, "sku": "REF-002", "images": ["/images/placeholder-produit-deux.jpg"], "description": "Description courte du produit." },
+  { "id": 3, "slug": "produit-trois", "name": "Produit Trois", "price": 18000, "category": "categorie-2", "featured": true, "sku": "REF-003", "images": ["/images/placeholder-produit-trois.jpg"], "description": "Description courte du produit." },
+  { "id": 4, "slug": "produit-quatre", "name": "Produit Quatre", "price": 60000, "category": "categorie-2", "featured": false, "sku": "REF-004", "images": ["/images/placeholder-produit-quatre.jpg"], "description": "Description courte du produit." }
+]
