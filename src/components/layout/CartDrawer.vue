@@ -67,7 +67,7 @@
               <p class="text-sm text-ink/60 mt-0.5">{{ formatPrice(line.product.price) }} l'unité</p>
 
               <div class="mt-3 flex items-center justify-between">
-                <div class="inline-flex items-center border border-ink/15 rounded-full bg-white">
+                <div class="inline-flex items-center border border-ink/15 rounded-full bg-surface">
                   <button @click="cart.decrement(line.product.id)" class="w-8 h-8 text-ink/70 hover:text-ink transition" aria-label="Diminuer la quantité">−</button>
                   <span class="w-8 text-center text-sm font-medium text-ink">{{ line.quantity }}</span>
                   <button @click="cart.increment(line.product.id)" class="w-8 h-8 text-ink/70 hover:text-ink transition" aria-label="Augmenter la quantité">+</button>

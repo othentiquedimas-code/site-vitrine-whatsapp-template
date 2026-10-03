@@ -1,5 +1,5 @@
 <template>
-  <div class="group bg-white rounded-2xl overflow-hidden border border-ink/10 hover:border-accent hover:shadow-lg transition">
+  <div class="group bg-surface rounded-2xl overflow-hidden border border-ink/10 hover:border-accent hover:shadow-lg transition">
     <router-link :to="`/produits/${product.slug}`" class="block aspect-square overflow-hidden bg-sage/30">
       <img :src="product.images[0]" :alt="product.name" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
     </router-link>

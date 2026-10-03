@@ -8,7 +8,7 @@
     </div>
 
     <!-- Bloc WhatsApp principal -->
-    <div class="mt-10 bg-white border border-ink/10 rounded-2xl p-8 text-center">
+    <div class="mt-10 bg-surface border border-ink/10 rounded-2xl p-8 text-center">
       <p class="text-ink/80">Une question sur un produit ou une commande ?</p>
       <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank" rel="noopener noreferrer"
          class="mt-6 inline-flex items-center justify-center bg-brand text-white px-8 py-3 rounded-full font-medium hover:bg-brand-dark transition">
@@ -19,12 +19,12 @@
     <!-- Coordonnées -->
     <div class="mt-8 grid sm:grid-cols-2 gap-4">
       <a :href="`mailto:${settings.email}`"
-         class="bg-white border border-ink/10 rounded-2xl p-6 hover:border-brand transition">
+         class="bg-surface border border-ink/10 rounded-2xl p-6 hover:border-brand transition">
         <p class="text-sm text-ink/50">Email</p>
         <p class="text-ink font-medium mt-1">{{ settings.email }}</p>
       </a>
       <a :href="`https://wa.me/${settings.whatsapp}`" target="_blank" rel="noopener noreferrer"
-         class="bg-white border border-ink/10 rounded-2xl p-6 hover:border-brand transition">
+         class="bg-surface border border-ink/10 rounded-2xl p-6 hover:border-brand transition">
         <p class="text-sm text-ink/50">WhatsApp</p>
         <p class="text-ink font-medium mt-1">+{{ settings.whatsapp }}</p>
       </a>

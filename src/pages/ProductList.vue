@@ -59,7 +59,7 @@ const filterClass = (slug) => [
   'px-4 py-2 rounded-full text-sm font-medium transition border',
   activeCategory.value === slug
     ? 'bg-brand text-white border-brand'
-    : 'bg-white text-ink/70 border-ink/15 hover:border-brand'
+    : 'bg-surface text-ink/70 border-ink/15 hover:border-brand'
 ]
 
 // Reflète le filtre dans l'URL pour qu'il reste partageable et rejouable au rafraîchissement.

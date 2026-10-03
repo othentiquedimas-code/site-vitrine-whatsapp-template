@@ -11,6 +11,7 @@
   --color-brand-dark: #141A26;   /* survol des boutons */
   --color-accent: #C9A227;       /* touches d'accent */
   --color-sage: #E8E6DE;         /* bandeaux et fonds doux */
+  --color-surface: #FFFFFF;      /* surfaces de cartes (fond blanc) */
 }
 
 body {
