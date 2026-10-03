@@ -4,13 +4,13 @@
   --font-serif: "Fraunces", serif;
   --font-sans: "Inter", sans-serif;
 
-  /* Palette « Crème & sauge » */
-  --color-cream: #FBF7F2;        /* fond de page */
-  --color-ink: #2B2A28;          /* texte et titres */
-  --color-brand: #3F5B4E;        /* boutons et actions */
-  --color-brand-dark: #2F463B;   /* survol des boutons */
-  --color-accent: #E8A88F;       /* touches d'accent */
-  --color-sage: #DCE5DD;         /* bandeaux et fonds doux */
+  /* Palette « Encre & or » */
+  --color-cream: #FAFAF8;        /* fond de page */
+  --color-ink: #1F2430;          /* texte et titres */
+  --color-brand: #1F2430;        /* boutons et actions */
+  --color-brand-dark: #141A26;   /* survol des boutons */
+  --color-accent: #C9A227;       /* touches d'accent */
+  --color-sage: #E8E6DE;         /* bandeaux et fonds doux */
 }
 
 body {
