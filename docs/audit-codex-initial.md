@@ -93,3 +93,30 @@ Les dossiers `src/data`, `components/{home,layout,product}`, `composables`, `sto
 ### Recommandation de gate
 
 Ne pas reprendre l’implémentation sans traiter au minimum les défauts à fort impact de l’épique 3 (assets valides) et décider du comportement attendu du filtre catégorie. Valider avec les mentors les recommandations de ce rapport, conformément au gate de l’épique 1. Les résidus de template peuvent être nettoyés dans une tâche distincte; aucune suppression n’a été effectuée pendant cet audit.
+
+## Revue de l'Épique 1bis
+
+Périmètre vérifié : corrections des commits `821319f` à `5633d68`, par lecture du code et recherche dans les fichiers suivis du projet. Aucun code n’a été modifié et aucun test navigateur/build n’a été exécuté pendant cette revue ciblée.
+
+### 1. Filtre de catégories — **validé**
+
+- `src/components/home/CategoryGrid.vue:5` transmet le slug choisi dans `/produits?categorie=<slug>`.
+- `src/pages/ProductList.vue:44-55` construit la liste des slugs reconnus depuis `categories.json`; une valeur simple et reconnue applique le filtre correspondant aux produits. Paramètre absent, slug inconnu ou paramètre répété (valeur non string) donne `activeCategory = 'all'` et affiche tous les produits.
+- `src/pages/ProductList.vue:66-70` synchronise les boutons de filtre dans l’URL via `router.replace`; choisir « Tout » retire la query. Le comportement est cohérent avec l’état réactif dérivé de `route.query` et ne contredit aucune primitive.
+- Précision pour le backlog : `replace` met à jour l’entrée courante; il ne crée pas une entrée par changement de filtre dans l’historique précédent/suivant. Le partage de l’URL et le rafraîchissement restent cohérents. Cette différence avec la note de session du backlog n’empêche pas de valider la correction demandée.
+
+### 2. Suppression des résidus Vite — **validé**
+
+Les six fichiers annoncés sont absents de l’inventaire courant : `src/components/HelloWorld.vue`, `src/assets/vite.svg`, `src/assets/vue.svg`, `src/assets/hero.png`, `public/icons.svg` et `public/favicon1.svg`. La recherche de références dans le code/configuration (`src/`, `public/`, `index.html`, `vite.config.js`, `package.json`, README et documents) ne trouve aucun import ou chemin actif vers ces fichiers. Les seules mentions restantes sont dans les notes d’audit/backlog qui consignent leur suppression; ce sont des références historiques, pas des références cassées. `index.html` conserve le favicon actif `/favicon.svg`.
+
+### 3. `rel="noopener noreferrer"` — **validé**
+
+Le relevé exhaustif du code actif trouve 12 occurrences `target="_blank"` et 12 attributs `rel="noopener noreferrer"`, tous sur les mêmes éléments `<a>` : ProductCard (1), Contact (4), CartDrawer (1), AppHeader (2), AppFooter (1), HeroSection (1), ProductDetail (1) et ContactSection (1). La forme est valide et aucun lien actif `target="_blank"` sans cet attribut n’a été trouvé.
+
+### Cohérence du résumé de l’audit précédent
+
+La remarque des mentors est juste : l’ancien rapport qualifiait `HelloWorld.vue` de **bloquant** au Niveau 1, mais le résumé final annonçait zéro point bloquant. Ces sévérités ne concordent pas. Pour éviter de propager cette incohérence, le comptage détaillé de l’audit initial doit être lu comme **1 bloquant, 24 à corriger et 25 mineurs**; le résumé final précédent était erroné. La suppression de `HelloWorld.vue` dans l’Épique 1bis résout ce point.
+
+### Verdict de clôture
+
+Les trois corrections de l’Épique 1bis sont validées en revue statique et ne présentent pas de violation de primitive ni de référence cassée identifiée. **L’Épique 1bis peut être considérée comme close**; les vérifications manuelles du filtre et de la console restent planifiées à l’Épique 5, et ne constituent pas un défaut constaté dans cette revue ciblée.
